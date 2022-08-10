@@ -6,11 +6,14 @@ Construir una expresión lógica que use TODAS las variables y cuyo resultado se
 True si al menos una de las variables es True.
 """
 
+from ast import If
+
+
 esta_lloviendo = True
 riego_activado = True
 
 # COMPLETAR - INICIO
-
+piso_mojado = esta_lloviendo or riego_activado
 # COMPLETAR - FIN
 
 assert piso_mojado
@@ -26,7 +29,7 @@ lado_cuadrado = 5
 area_cuadrado = pow(lado_cuadrado, 2)
 
 # COMPLETAR - INICIO
-
+area_mayor_a_cinco = lado_cuadrado not area_cuadrado
 # COMPLETAR - FIN
 
 assert area_mayor_a_cinco
@@ -41,7 +44,7 @@ numero_1 = 49
 numero_2 = 50
 
 # COMPLETAR - INICIO
-
+if numero_1
 # COMPLETAR - FIN
 
 assert resultado
