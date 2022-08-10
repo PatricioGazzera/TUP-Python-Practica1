@@ -50,7 +50,7 @@ precio = 3.74
 presupuesto_disponible = 10
 
 # COMPLETAR - INICIO
-cantidad_a_comprar = presupuesto_disponible / precio
+cantidad_a_comprar = presupuesto_disponible / culo
 # COMPLETAR - FIN
 
 assert cantidad_a_comprar == 2
