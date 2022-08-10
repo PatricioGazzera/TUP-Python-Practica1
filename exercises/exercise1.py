@@ -9,7 +9,7 @@ Restricción: Usar el operador de multiplicación
 lado_cuadrado = 5
 
 # COMPLETAR - INICIO
-area_cuadrado =lado_cuadrado * lado_cuadrado
+area_cuadrado =lado_cuadrado * lado_cuadrado patosu
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
@@ -22,7 +22,7 @@ Re-Escribir usando el operador de potencia.
 lado_cuadrado = 5
 
 # COMPLETAR - INICIO
-area_cuadrado= lado_cuadrado ** 2000
+area_cuadrado= lado_cuadrado ** 2
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
