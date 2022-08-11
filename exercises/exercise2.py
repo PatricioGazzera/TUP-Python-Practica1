@@ -7,6 +7,8 @@ True si al menos una de las variables es True.
 """
 
 from ast import If
+from operator import truediv
+from pickle import TRUE
 
 
 esta_lloviendo = True
@@ -29,7 +31,7 @@ lado_cuadrado = 5
 area_cuadrado = pow(lado_cuadrado, 2)
 
 # COMPLETAR - INICIO
-area_mayor_a_cinco = lado_cuadrado not area_cuadrado
+area_mayor_a_cinco = lado_cuadrado ;not area_cuadrado
 # COMPLETAR - FIN
 
 assert area_mayor_a_cinco
@@ -44,7 +46,9 @@ numero_1 = 49
 numero_2 = 50
 
 # COMPLETAR - INICIO
-if numero_1
+numero_1 / 7 == True
+numero_2 / 7 == False
+numero_1 or numero_2
 # COMPLETAR - FIN
 
 assert resultado
