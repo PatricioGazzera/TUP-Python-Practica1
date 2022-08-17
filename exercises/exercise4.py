@@ -11,7 +11,7 @@ numero_03 = "789"
 numero_04 = "132"
 
 # COMPLETAR - INICIO
-
+suma_de_numeros = int("123") + int("456") + int("789") + int("132")
 # COMPLETAR - FIN
 
 assert suma_de_numeros == 1500

@@ -68,6 +68,7 @@ variable_05 = 100
 
 # COMPLETAR - INICIO
 
+
 # COMPLETAR - FIN
 
 assert resultado == 80
