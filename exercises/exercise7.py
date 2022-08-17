@@ -111,7 +111,7 @@ tupla = ("anoche", "fui", "a", "la", "fiesta", "pero", "no", "pude", "entrar")
 
 # COMPLETAR - INICIO
 a, b, c, d, e, *rest = ("anoche", "fui", "a", "la", "fiesta", "pero", "no", "pude", "entrar")
-string_concatenado = a + b + c + d + e
+string_concatenado = f'{a, b, c, d, e}'
 # COMPLETAR - FIN
 
 assert string_concatenado == "anoche fui a la fiesta"
