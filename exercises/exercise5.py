@@ -6,12 +6,15 @@ Formatear las siguientes variables de tipo string en un único string.
 Restricción: Utilizar el operador +.
 """
 
+from tkinter import N
+
+
 variable_01 = "¡Buenos "
 variable_02 = "días "
 variable_03 = "a todos!"
 
 # COMPLETAR - INICIO
-
+strings_concatenados = variable_01 + variable_02 + variable_03
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Buenos días a todos!"
@@ -28,7 +31,9 @@ usar operadores).
 # "strings!"
 
 # COMPLETAR - INICIO
-
+"""!Mama 
+estoy concatenando 
+strings!"""
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Mamá estoy concatenando strings!"
