@@ -9,9 +9,9 @@ Restricción: Utilizar el metodo add
 numero_1 = 1
 numero_2 = 2
 numero_3 = 3
-
 # COMPLETAR - INICIO
-
+conjunto_1 = {}
+conjunto_1.add(1, 2, 3)
 # COMPLETAR - FIN
 
 assert conjunto_1 == {1, 2, 3}
@@ -28,7 +28,8 @@ domicilio = "Los sauces 3446"
 edad = "35"
 
 # COMPLETAR - INICIO
-
+conjunto_22 = {"5", "6", "7"}
+conjunto_2.add(edad, nombre, )
 # COMPLETAR - FIN
 
 assert conjunto_2 == {"35", "Esteban", "7", "6", "Los sauces 3446", "5"}
