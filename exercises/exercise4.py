@@ -59,7 +59,7 @@ numero_03 = "0o1234"
 numero_04 = 654
 
 # COMPLETAR - INICIO
-
+resultado_resta = int("987") - int("0x6f54F", 16) - int("0o1234", 8) - 654
 # COMPLETAR - FIN
 
 assert resultado_resta == -456350
