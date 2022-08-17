@@ -152,7 +152,7 @@ elemento = 1.0
 lista = [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1.0, 1, 0, 1, 0, 1]
 
 # COMPLETAR - INICIO
-
+variable_booleana = elemento in lista
 # COMPLETAR - FIN
 
 assert variable_booleana
@@ -167,7 +167,7 @@ lista_01 = [1, 2, 3, 4.5, 6, 7]
 lista_02 = [1, 3, 2, 4, 5, 6, 7]
 
 # COMPLETAR - INICIO
-
+son_iguales = lista_01 == lista_02
 # COMPLETAR - FIN
 
 assert not son_iguales
@@ -183,7 +183,7 @@ Restricción: Utilizar el método any
 notas = [False, False, False, False, False, False, False, False, False]
 
 # COMPLETAR - INICIO
-
+no_tiene_examenes_aprobados = any(notas)
 # COMPLETAR - FIN
 
 assert no_tiene_examenes_aprobados
@@ -199,7 +199,7 @@ Restricción: Utilizar el método all
 notas = [True, True, False, True, True, True, True, True, True, True, True, True]
 
 # COMPLETAR - INICIO
-
+tiene_todo_aprobado = all(notas)
 # COMPLETAR - FIN
 
 assert not tiene_todo_aprobado
