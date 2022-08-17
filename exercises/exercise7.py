@@ -36,7 +36,7 @@ Desempaquetar la siguiente tupla en las variables a, b y c
 tupla = ("primer", 25, [1, 2, 3])
 
 # COMPLETAR - INICIO
-
+a, b, c = ("primer", 25, [1, 2, 3])
 # COMPLETAR - FIN
 
 assert a == "primer" and b == 25 and c == [1, 2, 3]
@@ -49,7 +49,9 @@ Desempaquetar la siguiente tupla y luego sumar sus valores
 tupla = (87, 98, 35, 67, 4, 9)
 
 # COMPLETAR - INICIO
+a, b, c, d, e, f = (87, 98, 35, 67, 4, 9)
 
+total = a + b + c + d + e + f
 # COMPLETAR - FIN
 
 assert total == 300
@@ -63,7 +65,9 @@ Restricción: Utilizar f-Strings.
 lista = ["esta", "mañana", "sali", "a", "correr"]
 
 # COMPLETAR - INICIO
+a, b, c, d, e = ["esta", "mañana", "sali", "a", "correr"]
 
+f'{a}, {b}, {c}, {d}, {e},'
 # COMPLETAR - FIN
 
 assert string_concatenado == "esta mañana sali a correr"
@@ -77,7 +81,7 @@ Restricción: Utilizar desempaquetado con comodines
 tupla = (73, 45, 344, 3434, 2)
 
 # COMPLETAR - INICIO
-
+a, *rest = (73, 45, 344, 3434, 2)
 # COMPLETAR - FIN
 
 assert primer == 73
