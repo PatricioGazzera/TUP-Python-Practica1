@@ -50,7 +50,7 @@ variable_02 = 600
 variable_03 = " pesos a un amigo."
 
 # COMPLETAR - INICIO
-
+string_concatenados = print("le debo" + str (variable_02) + "pesos a un amigo je")
 # COMPLETAR - FIN
 
 assert strings_concatenados == "Le debo 600 pesos a un amigo."
