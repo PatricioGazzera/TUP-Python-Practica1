@@ -6,10 +6,13 @@ A partir de ls siguiente lista instanciar una tupla que contenga todos sus valor
 y en el mismo orden.
 """
 
+from cgitb import reset
+
+
 lista = ["casa", "perro", "pato", "gato"]
 
 # COMPLETAR - INICIO
-
+tupla = "casa", "perro", "pato", "gato"
 # COMPLETAR - FIN
 
 assert tupla == ("casa", "perro", "pato", "gato")
@@ -23,7 +26,7 @@ y en el mismo orden.
 tupla = "casa", "perro", "pato", "gato", "tenedor"
 
 # COMPLETAR - INICIO
-
+lista = tupla
 # COMPLETAR - FIN
 
 assert lista == ["casa", "perro", "pato", "gato", "tenedor"]
@@ -95,7 +98,8 @@ Restricción: Utilizar desempaquetado con comodines
 lista = [73, 45, 344, 3434, 2]
 
 # COMPLETAR - INICIO
-
+a, *reset, b = [73, 45, 344, 3434, 2]
+suma = a + b
 # COMPLETAR - FIN
 
 assert suma == 75
@@ -110,7 +114,8 @@ Restricción: Utilizar desempaquetado con comodines y f-Strings
 tupla = ("anoche", "fui", "a", "la", "fiesta", "pero", "no", "pude", "entrar")
 
 # COMPLETAR - INICIO
-
+a, b, c, d, e, *rest = ("anoche", "fui", "a", "la", "fiesta", "pero", "no", "pude", "entrar")
+string_concatenado = f'{a, b, c, d, e}'
 # COMPLETAR - FIN
 
 assert string_concatenado == "anoche fui a la fiesta"
