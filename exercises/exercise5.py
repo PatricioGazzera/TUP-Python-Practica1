@@ -69,12 +69,10 @@ variable_04 = " años."
 variable_05 = "Ezequiel"
 
 # COMPLETAR - INICIO
-
+assert (strings_concatenados == "Le debo 6 pesos a un amigo hace 6 años. Se llama Ezequiel")
 # COMPLETAR - FIN
 
-assert (
-    strings_concatenados == "Le debo 6 pesos a un amigo hace 6 años. Se llama Ezequiel"
-)
+
 
 
 """
