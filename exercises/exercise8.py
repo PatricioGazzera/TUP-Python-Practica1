@@ -10,7 +10,10 @@ Definir un diccionario para un 'Cliente' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
-
+cliente = {["Nombre"] : "Mario Pedernera"}
+Cliente = {["DNI"] : 56895632}
+Cliente = {["Domicilio"] : "Los alamos 4509"}
+Cliente = {["Compras"] == "cafetera", "TV 50 pulgadas", "mouse gamer"}
 # COMPLETAR - FIN
 
 assert (
@@ -29,7 +32,9 @@ Definir un diccionario para las 'Compras' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
-
+compras = ["Mario Pedernera"] == "cafetera", "TV 50 pulgadas", "mouse gamer"
+compras = ["Ezequiel Castello"] == "ipad", "ipod", "iphone"
+compras = ["Pablo Piristrelli"] == "reproductor de CD", "Videograbadora"
 # COMPLETAR - FIN
 
 assert (
@@ -52,7 +57,7 @@ diccionario = {
 }
 
 # COMPLETAR - INICIO
-
+diccionario.get("clave1")
 # COMPLETAR - FIN
 
 assert clave1 == 234
