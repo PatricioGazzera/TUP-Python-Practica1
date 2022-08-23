@@ -43,7 +43,7 @@ conjunto_03 = {1, 23, 4, 8, 5, 10, 15, 21}
 conjunto_04 = {12, 4, 10, 21, 78}
 
 # COMPLETAR - INICIO
-
+conjunto_interseccion = conjunto_03 & conjunto_04
 # COMPLETAR - FIN
 
 assert conjunto_interseccion == {10, 4, 21}
@@ -56,7 +56,7 @@ conjunto_03 = {1, 23, 4, 8, 5, 10, 15, 21}
 conjunto_04 = {12, 4, 10, 21, 78}
 
 # COMPLETAR - INICIO
-
+conjunto_interseccion = conjunto_03.intersection(conjunto_04)
 # COMPLETAR - FIN
 
 assert conjunto_interseccion == {10, 4, 21}
@@ -70,10 +70,10 @@ conjunto_05 = {1, 2, 3, 4}
 conjunto_06 = {5, 6, 7, 8}
 
 # COMPLETAR - INICIO
-
+conjunto_interseccion = conjunto_05 | conjunto_06
 # COMPLETAR - FIN
 
-assert conjunto_union == {1, 2, 3, 4, 5, 6, 7, 8}
+assert conjunto_interseccion = conjunto_03.intersection(conjunto_04)= {1, 2, 3, 4, 5, 6, 7, 8}
 
 
 """
