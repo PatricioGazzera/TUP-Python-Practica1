@@ -112,7 +112,7 @@ conjunto_07 = {1, 2, 3, 4, 5, 6, 7, 8}
 conjunto_08 = {2, 4, 6, 8}
 
 # COMPLETAR - INICIO
-
+conjunto_diferencia = conjunto_07.difference(conjunto_08)
 # COMPLETAR - FIN
 
 assert conjunto_diferencia == {1, 3, 5, 7}
