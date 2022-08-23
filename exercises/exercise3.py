@@ -49,7 +49,9 @@ superficie_de_campo_02 = 851212
 superficie_de_campo_03 = 8512
 
 # COMPLETAR - INICIO
-comparar_superficie
+
+comparar_superficie = superficie_de_campo_01 < superficie_de_campo_02 > superficie_de_campo_03
+
 # COMPLETAR - FIN
 
 assert comparar_superficie
@@ -69,7 +71,7 @@ manzanas = 300
 peras = 30
 
 # COMPLETAR - INICIO
-
+comparar_frutas= bananas<naranjas/2 < manzanas**2 <= peras**2
 # COMPLETAR - FIN
 
 assert comparar_frutas
