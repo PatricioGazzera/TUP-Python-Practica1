@@ -32,7 +32,6 @@ marca_del_auto = "Chevrolet"
 modelo_de_auto = 1998
 
 # COMPLETAR - INICIO
-comparar_marca_y_modelo= marca_del_auto != "Ford" and modelo_de_auto<= 2000= TRUE
 # COMPLETAR - FIN
 
 assert comparar_marca_y_modelo
@@ -50,7 +49,7 @@ superficie_de_campo_02 = 851212
 superficie_de_campo_03 = 8512
 
 # COMPLETAR - INICIO
-comparar_superficie =
+comparar_superficie
 # COMPLETAR - FIN
 
 assert comparar_superficie
