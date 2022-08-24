@@ -70,7 +70,7 @@ lista = ["esta", "mañana", "sali", "a", "correr"]
 # COMPLETAR - INICIO
 a, b, c, d, e = ["esta", "mañana", "sali", "a", "correr"]
 
-f'{a}, {b}, {c}, {d}, {e},'
+string_concatenado = f'{a}, {b}, {c}, {d}, {e},'
 # COMPLETAR - FIN
 
 assert string_concatenado == "esta mañana sali a correr"
@@ -84,7 +84,7 @@ Restricción: Utilizar desempaquetado con comodines
 tupla = (73, 45, 344, 3434, 2)
 
 # COMPLETAR - INICIO
-a, *rest = (73, 45, 344, 3434, 2)
+primer = a, *rest = (73, 45, 344, 3434, 2)
 # COMPLETAR - FIN
 
 assert primer == 73

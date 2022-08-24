@@ -57,7 +57,7 @@ diccionario = {
 }
 
 # COMPLETAR - INICIO
-diccionario.get("clave1")
+clave1 = diccionario.get("clave1")
 # COMPLETAR - FIN
 
 assert clave1 == 234
