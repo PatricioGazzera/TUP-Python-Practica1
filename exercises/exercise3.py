@@ -32,6 +32,7 @@ marca_del_auto = "Chevrolet"
 modelo_de_auto = 1998
 
 # COMPLETAR - INICIO
+comparar_marca_y_modelo = not marca_del_auto or not modelo_de_auto
 # COMPLETAR - FIN
 
 assert comparar_marca_y_modelo
