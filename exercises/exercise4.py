@@ -27,7 +27,6 @@ numero_03 = 789
 
 # COMPLETAR - INICIO
 num1 = str(123)
-num2 = str(456)num1 = str(123)
 num2 = str(456)
 num3 = str(789)
 suma_de_numeros_string = 'num1' + 'num2' + 'num3'
