@@ -46,9 +46,7 @@ numero_1 = 49
 numero_2 = 50
 
 # COMPLETAR - INICIO
-numero_1 / 7 == True
-numero_2 / 7 == False
-numero_1 or numero_2
+resultado = numero_1 %7 or numero_2 %7
 # COMPLETAR - FIN
 
 assert resultado
@@ -67,8 +65,7 @@ variable_04 = "90"
 variable_05 = 100
 
 # COMPLETAR - INICIO
-
-
+resultado = variable_03 or variable_02 or not variable_01 or variable_04 or variable_05
 # COMPLETAR - FIN
 
 assert resultado == 80
